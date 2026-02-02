@@ -1,10 +1,11 @@
-The mini project of Virtual Machine Rebuild API
 
+# The mini project of Virtual Machine Rebuild API
 
+## Description and Key Features
 
-1. takes the POST /api/v1/rebuild request with parameters (vmName, template)
+1\. takes the POST /api/v1/rebuild request with parameters (vmName, template)
 
-2\. runes rebuild as power shell task
+2\. runs rebuild as PowerShell task
 
 3\. returns jobId
 
@@ -14,17 +15,13 @@ The mini project of Virtual Machine Rebuild API
 
 
 
-Structure: 
+## Structure
+```
 
 VmRebuildApi/ 
-
-Controllers/ 
-
-Jobs/ 
-
-Models/ 
-
-Services/ 
-
-Scripts/
+├── Controllers/ 
+├── Jobs/ 
+├── Models/ 
+├── Services/ 
+└──Scripts/
 
